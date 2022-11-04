@@ -1,0 +1,54 @@
+.task-item {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 8px 4px;
+  color: #E1E1E1;
+  font-size: 14px;
+  border: 2px solid rgba(243, 156, 18, 0.2)
+}
+
+.task-item input[type="text"] {
+  border: none;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  border: #e1e1e1 solid 1px;
+  border-radius: 3px;
+  color: #e1e1e1;
+  font-family: "Poppins";
+  padding: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+}
+
+.task-item select {
+  display: inline-block;
+  width: 20px;
+  height:20px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: rgba(243, 156, 18, 0.2);
+  color: #e1e1e1;
+  cursor: pointer;
+}
+
+.task-item option {
+  color: #000;
+}
+
+.task-item select,
+.task-item option {
+  font-family: "Poppins";
+}
+
+
+
