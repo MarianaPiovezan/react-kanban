@@ -1,7 +1,7 @@
 import "./tasklist.css";
 import { TaskItem } from "../tasksitems/taskitem";
 import plusIcon from "../../image/plus-icon.svg";
-import propTypes from 'props-type';
+import PropTypes from 'prop-types';
 
 export function TaskList({
   title,
